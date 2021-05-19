@@ -23,5 +23,15 @@ header{
     flex-direction:column;
 }
 .card-img-top {
-  
+
+  width:100%;
+
+}
+.card-group{
+    margin:2%
+}
+.card{
+    margin:2%;
+    padding:0.5%;
+    border: 2px solid green;
 }
