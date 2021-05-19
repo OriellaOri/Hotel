@@ -1,0 +1,27 @@
+﻿body
+{
+    font-family:Tahoma, sans-serif;
+}
+h1 {
+    font-family: 'Pattaya', sans-serif;
+}
+header{
+    display:flex;
+    flex-direction:column;
+    text-align:center;   
+}
+.imghotel {
+    height: auto;
+    width: 100%;
+}
+.btn {
+    margin: 10px;
+}
+.col {
+    display:flex;
+    align-content: center;
+    flex-direction:column;
+}
+.card-img-top {
+  
+}

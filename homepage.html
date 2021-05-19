@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Homepage</title>
+    <!-- aggiunta tag x responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- link per font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">    <!-- CSS-->
+    <!-- CSS-->
+    <link rel="stylesheet" href="stile.css" />
+    <!-- JS-->
+    <script src="jshotel.js"></script>
+</head>
+<body onload="hello()">
+
+    <nav class="navbar navbar-dark bg-success container-fluid">
+        <!-- Navbar content -->
+        <div class="container-fluid">
+            <a class="navbar-brand" href="homepage.html">Bed&Sofà</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="homepage.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="stanze.html">Stanze</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contatti.html">Contatti</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container-fluid m-3">
+        <header>
+            <h1> Alla ricerca dalle stanza perfetta?</h1>
+            <h2>Sei nel posto giusto!</h2>
+        </header>
+    </div>
+
+    <main class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <img src="room2.jpg" class="rounded float-left imghotel" alt="Hotel">
+
+            </div>
+            <div class="col">
+                <img src="room2.jpg" class="rounded float-right imghotel" alt="Hotel">
+                <a href="stanze.html" class="btn btn-outline-success" role="button" aria-pressed="true"> Prenota Subito!</a>
+            </div>
+            <div class="col">
+                <img src="room2.jpg" class="rounded float-right imghotel" alt="Hotel">
+
+            </div>
+        </div>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="text-center navbar-dark bg-success container-fluid">
+        &nbsp;
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+</body>
+</html>
